@@ -24,33 +24,32 @@ var poemFour = "Will you be my New Years Kiss?";
 //functions
 
 function introline(){
-if (hour < 23) { 
+if (hour < 21) { 
 	intro.style.visibility="hidden"
 		}
 	};
 introline()
 
-
 function timePoemOne() {
-	var comparison = (hour >= 12 || hour == 0) ? paraOne.innerHTML = poemOne : console.log("not yet poemOne")
+	var comparison = (hour >= 21 || hour == 0) ? paraOne.innerHTML = poemOne : console.log("not yet poemOne")
   };
   
 timePoemOne();
 
 function timePoemTwo() {
-	var comparison = (hour >= 12 || hour == 0) ? paraTwo.innerHTML = poemTwo : console.log("not yet poemTwo")
+	var comparison = (hour >= 22 || hour == 0) ? paraTwo.innerHTML = poemTwo : console.log("not yet poemTwo")
   };
   
 timePoemTwo();
 
 function timePoemThree() {
-	var comparison = (hour >= 12 || hour == 0) ? paraThree.innerHTML = poemThree : console.log("not yet poemThree")
+	var comparison = (hour >= 23 || hour == 0) ? paraThree.innerHTML = poemThree : console.log("not yet poemThree")
   };
   
 timePoemThree();
 
 function timePoemFour() {
-	var comparison = (hour == 14) ? paraFour.innerHTML = poemFour : console.log("not yet poemFour")
+	var comparison = (hour == 0) ? paraFour.innerHTML = poemFour : console.log("not yet poemFour")
   };
   
 timePoemFour();
