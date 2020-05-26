@@ -28,7 +28,7 @@ if (hour < 21) {
 	intro.style.visibility="hidden"
 		}
 	};
-introline()
+introline();
 
 function timePoemOne() {
 	var comparison = (hour >= 21 || hour == 0) ? paraOne.innerHTML = poemOne : console.log("not yet poemOne")
