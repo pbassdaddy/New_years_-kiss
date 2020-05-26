@@ -7,7 +7,7 @@ var sec = time.getSeconds();
 var milli = time.getMilliseconds();
 
 //HMTL
-
+var intro = document.getElementById('intro');
 var paraOne = document.getElementById('1');
 var paraTwo = document.getElementById('2');
 var paraThree = document.getElementById('3');
@@ -19,9 +19,11 @@ console.log(hour);
 var poemOne = "Missippi Queen: <br> rattlesnake woman, dangling <br> unholy like a tree snake <br> from the twisted magnolia.";
 var poemTwo = "Shape shifting lurker of my inner desire; <br> dizzy silhouette <br> against cracksmoke and marijuana plumes.";0
 var poemThree = "I want to be your red dress<br>your secret,<br>hidden,<br>salt chest.";
-var poemFour ="Will you be my New Years Kiss?";
+var poemFour = "Will you be my New Years Kiss?";
 
 //functions
+
+if (hour <15) {intro.style.display="none"};
 
 function timePoemOne() {
 	var comparison = (hour >= 12 || hour == 0) ? paraOne.innerHTML = poemOne : console.log("not yet poemOne")
