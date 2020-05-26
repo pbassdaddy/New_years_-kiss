@@ -42,7 +42,7 @@ function timePoemThree() {
 timePoemThree();
 
 function timePoemFour() {
-	var comparison = (hour == 12) ? paraFour.innerHTML = poemFour : console.log("not yet poemFour")
+	var comparison = (hour == 13) ? paraFour.innerHTML = poemFour : console.log("not yet poemFour")
   };
   
 timePoemFour();
