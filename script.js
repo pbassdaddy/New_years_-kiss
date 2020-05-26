@@ -19,7 +19,7 @@ console.log(hour);
 var poemOne = "Missippi Queen <br> rattlesnake woman dangling <br> unholy like a tree snake <br> from the twisted magnolia";
 var poemTwo = "Shape shifting lurker of my inner desire <br> dizzy silhouette <br> against cracksmoke and marijuana plumes";0
 var poemThree = "I want to be your red dress<br>your secret,<br>hidden,<br>salt chest";
-var poemFour ="Am I Kissing you now?";
+var poemFour ="Am I kissing you now?";
 
 //functions
 
