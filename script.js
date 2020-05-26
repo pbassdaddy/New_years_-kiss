@@ -18,7 +18,7 @@ console.log(hour);
 
 var poemOne = "Missippi Queen: <br> rattlesnake woman, dangling <br> unholy like a tree snake <br> from the twisted magnolia.";
 var poemTwo = "Shape shifting lurker of my inner desire; <br> dizzy silhouette <br> against cracksmoke and marijuana plumes.";0
-var poemThree = "I want to be your red dress<br>your secret,<br>hidden,<br>salt chest";
+var poemThree = "I want to be your red dress<br>your secret,<br>hidden,<br>salt chest.";
 var poemFour ="Will you be my New Years Kiss?";
 
 //functions
@@ -42,7 +42,7 @@ function timePoemThree() {
 timePoemThree();
 
 function timePoemFour() {
-	var comparison = (hour == 13) ? paraFour.innerHTML = poemFour : console.log("not yet poemFour")
+	var comparison = (hour == 14) ? paraFour.innerHTML = poemFour : console.log("not yet poemFour")
   };
   
 timePoemFour();
