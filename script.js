@@ -23,7 +23,13 @@ var poemFour = "Will you be my New Years Kiss?";
 
 //functions
 
-if (hour <15) {intro.style.display="none"};
+function intro(){
+if (hour < 23) { 
+	intro.style.visibility="hidden"
+		}
+	};
+intro()
+
 
 function timePoemOne() {
 	var comparison = (hour >= 12 || hour == 0) ? paraOne.innerHTML = poemOne : console.log("not yet poemOne")
