@@ -25,7 +25,7 @@ var poemFour = "Will you be my New Years Kiss?";
 
 function introline(){
 	
-if (hour > 20) { 
+if (hour > 20 || hour == 0) { 
 	intro.style.visibility="hidden"
 		}
 	};
